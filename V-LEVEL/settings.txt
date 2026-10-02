@@ -1,0 +1,19 @@
+# Pitch shifter settings (key = value, lines starting with # are ignored)
+
+# MP3 file, or a folder containing MP3 files
+input = input.mp3
+
+# Output folder (created if missing)
+output_dir = output
+
+# Pitch change in semitones. +2 = higher, -3 = lower, 12 = one octave up
+semitones = 2
+
+# Keep the voice/instrument character natural (recommended: true)
+preserve_formants = true
+
+# Rubber Band high quality engine (recommended: true)
+high_quality = true
+
+# MP3 output bitrate
+bitrate = 320k
